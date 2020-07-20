@@ -1,0 +1,28 @@
+h1,
+.headingalignment {
+    text-align: center;
+}
+h1 {
+    background-image: url("Matcha-Pudding-Recipe.jpg");
+}
+
+.blue {
+    color: blue;
+}
+
+.font1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 18px;
+    opacity: 0.5;
+    background-image: url("Matcha-Pudding-Recipe.jpg");
+}
+
+
+footer,
+.bold {
+    font-weight: bold;
+    text-align: center;       
+}

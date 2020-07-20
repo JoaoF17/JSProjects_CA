@@ -1,0 +1,46 @@
+h3 {
+    color: blueviolet;
+    background-color: tomato;
+	font-size: medium;
+	border: black;
+	border-style: groove;
+	text-align: center;		
+}
+
+.first {
+    color: black;
+    font-size: 16;
+    font-weight: bold;
+}
+
+.second {
+    color: rgb(30, 30, 221);
+    font-size: 12;
+    font-style: italic;
+}
+
+.green {
+    color: blue;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#costumerpreferences li {
+    color: indianred;
+}
+
+h1,
+.headingaligncenter {
+    text-align: center;
+}
+
+body {
+    background-color: thistle;
+    border: solid 2px black;
+}

@@ -1,0 +1,40 @@
+h1 {
+    background-image: url(./Images/1.jpeg) ;
+    text-align: center;
+    color: khaki;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+.price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: blue;
+}
+
+.backgroundgreen {
+    background-color: mediumspringgreen;
+}
+
+.backgroundcoral {
+    background-color: lightcoral;
+}
+
+.backgroundblue {
+    background-color: skyblue;
+}

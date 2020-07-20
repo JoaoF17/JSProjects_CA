@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tell us who you are</title>
+	</head>
+	<body>
+		<form action="./Personal Info Form.html" method="POST">
+			<!--First Name-->
+			<label for="First Name">First Name</label>
+			<br />
+			<input type="text" name="First Name" id="First Name" />
+			<br />
+			<!--Age-->
+			<label for="Age">How old are you?</label>
+			<br />
+			<input type="number" name="Age" id="Age" step="1" />
+			<br />
+			<!--Matching a pattern, allowing only a certain type o characters (stil not working)-->
+			<label for="Phone number">What is you phone number?</label>
+			<br />
+			<input
+				type="number"
+				name="Phone number"
+				id="Phone number"
+				pattern="[0-9] {9}"
+				required
+			/>
+			<br />
+			<!--Gender-->
+			<p>What is your gender?</p>
+			<input type="radio" name="Gender" id="Male" />
+			<label for="Male">Male</label>
+			<br />
+			<input type="radio" name="Gender" id="Female" />
+			<label for="Female">Female</label>
+			<br />
+			<!--How likely are you to buy our product?-->
+			<label for="Buy prob"
+				>How likely are you to buy one of our products?</label
+			>
+			<br />
+			<input type="range" name="Buy prob" id="Buy prob" min="1" max="5" />
+			<br />
+			<!--Which is your favourite flavour?-->
+			<p>Which flavour is your favourite?</p>
+			<br />
+			<label for="Matcha">Matcha</label>
+			<input type="checkbox" name="Matcha" id="Matcha" value="Matcha" />
+			<br />
+			<label for="Strawberry">Strawberry</label>
+			<input
+				type="checkbox"
+				name="Strawberry"
+				id="Strawberry"
+				value="Strawberry"
+			/>
+			<br />
+			<label for="Chocolate">Chocolate</label>
+			<input
+				type="checkbox"
+				name="Chocolate"
+				id="Chocolate"
+				value="Chocolate"
+			/>
+			<br />
+			<!--Dropdown List-->
+			<label for="Topping">What is your favourite topping?</label>
+			<select name="Topping" id="Topping">
+				<option value="Blank"></option>
+				<option value="Blueberries">Blueberries</option>
+				<option value="Strawberry">Strawberry</option>
+				<option value="Chocolate">Chocolate</option>
+			</select>
+			<br />
+			<!--Dropdown list with search function (note: list value has to be different from id + input needs a list attribute to associate with datalist tag)-->
+			<label for="Size">Pudding size.</label>
+			<input type="text" name="size" id="size" list="sizes" />
+			<datalist id="sizes">
+				<option value="Small"></option>
+				<option value="Medium"></option>
+				<option value="Large"></option>
+			</datalist>
+			<br />
+			<!--Box to write, and setting a min and max characters able to type-->
+			<label for="comments">Give us your opinion on our products:</label>
+			<br />
+			<textarea
+				name="comments"
+				id="comments"
+				cols="30"
+				rows="10"
+				maxlength="5"
+			></textarea>
+			<br />
+			<!--Mandatory field-->
+			<label for="Allergies">Are you alergic to dairy?</label>
+			<br />
+			<input type="text" name="Allergies" id="Allergies" required />
+			<br />
+			<!--Set a minimun and a maximum-->
+			<label for="Consuming frequency"
+				>How many puddings do you eat per week?</label
+			>
+			<br />
+			<input
+				type="number"
+				name="Consuming frequency"
+				id="Consuming frequency"
+				min="1"
+				max="20"
+			/>
+			<br />
+			<!--Submit Buttom-->
+			<hr />
+			<input type="submit" name="Send" id="Send" value="Send" />
+		</form>
+    </body>
+    <footer>
+        <a href="./Natty Pudding.html">Main Page</a>
+        <a href="./contacts.html">Contacts</a>
+        <a href="./About us.html">About us</a>
+        <a href="./Terms and Policies.html">Terms and Policies</a>
+    </footer>
+</html>
