@@ -38,7 +38,7 @@ const getActualSleepHours = () =>
     getSleepHours('Sun');
 
 const getIdealSleepHours = () => {
-    const idealHours = 7;
+    const idealHours = 8;
     return idealHours * 7;
   };
 
