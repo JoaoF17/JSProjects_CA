@@ -1,0 +1,89 @@
+h1 {
+	margin: auto;
+	text-align: center;
+	color: black;
+	padding: 10px;
+}
+
+h2 {
+	margin: 10px;
+	text-align: auto;
+	color: black;
+	padding: 10px;
+}
+
+.divBorder {
+	text-align: center;
+	border: black solid;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.divBorder2 {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	text-align: left;
+}
+
+.lightGreen {
+	background-color: rgb(69, 199, 69);
+	text-align: auto;
+	padding: 30px;
+	margin: 10px;
+	border: black solid;
+	display: inline-block;
+	
+}
+
+.darkGreen {
+	background-color: rgb(11, 80, 11);
+	text-align: auto;
+	padding: 30px;
+	margin: 10px;
+	border: black solid;
+	display: inline-block;
+}
+
+.brownYellow {
+	background-color: goldenrod;
+	text-align: auto;
+	padding: 30px;
+	margin: 10px;
+	border: black solid;
+	display: inline-block;
+}
+
+.lightYellow {
+	background-color: gold;
+	text-align: auto;
+	padding: 30px;
+	margin: 10px;
+	border: black solid;
+	display: inline-block;
+}
+
+.newRoman {
+	font-family: 'Times New Roman', Times, serif;
+	text-align: left;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.fantasy {
+	font-family: fantasy;
+	text-align: left;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+}
+
+.cursive {
+	font-family: cursive;
+	text-align: left;
+	padding: 20px;
+	margin: 10px;
+	display: inline-block;
+}
+

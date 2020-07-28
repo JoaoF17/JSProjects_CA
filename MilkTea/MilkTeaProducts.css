@@ -1,0 +1,12 @@
+.headingStyle {
+    width: 400px;
+    margin: auto;
+    border-radius: 50%;
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: black;
+    background-color: chocolate;
+    padding: 10%;
+    overflow: hidden;
+}
+

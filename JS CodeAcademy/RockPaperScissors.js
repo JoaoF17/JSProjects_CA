@@ -72,6 +72,7 @@ function playGame(userChoice, computerChoice) {
 
 playGame();
 
+
 /*Adding a cheat code (if player types bomb he will always win):
 
 In getUserChoice(), add a fourth condition that checks if the userInput is 'bomb'.

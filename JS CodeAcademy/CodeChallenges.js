@@ -1,4 +1,4 @@
-//Can I vote. True if >18 else false
+//1. Can I vote. True if >18 else false
 const canIVote = (age) => {
 	if (age > 18) {
 		return true;
@@ -9,7 +9,7 @@ const canIVote = (age) => {
 
 console.log(canIVote(19));
 
-//Agree or Disagree
+//2. Agree or Disagree
 const agreeOrDisagree = (a, b) => {
 	if (a === b) {
 		return "Agree";
@@ -20,7 +20,7 @@ const agreeOrDisagree = (a, b) => {
 
 console.log(agreeOrDisagree(1, 1));
 
-//Life Phase
+//3. Life Phase
 const lifePhase = (age) => {
 	if (age <= 0 || age > 140) {
 		return "Invalid age";
@@ -37,7 +37,7 @@ const lifePhase = (age) => {
 
 console.log(lifePhase(7));
 
-//Final grades
+//4. Final grades
 const finalGrade = (grade1, grade2, grade3) => {
 	if (
 		grade1 < 0 ||
@@ -66,14 +66,14 @@ const finalGrade = (grade1, grade2, grade3) => {
 
 console.log(finalGrade(80, 70, 90));
 
-//Reporting for duty
+//5. Reporting for duty
 const reportingForDuty = (rank, lastName) => {
 	return rank + lastName + " report for duty!";
 };
 
 console.log(reportingForDuty("Cadete", " Joao"));
 
-//Fix the code
+//6. Fix the code
 const rollTheDice = () => {
 	// Math.random() gives us a random number from 0 up to, but not including, 1
 	// We multiplied that by 6 to get a number between 0 and up to, but not including, 6
@@ -85,3 +85,55 @@ const rollTheDice = () => {
 };
 
 console.log(rollTheDice());
+
+//7. Planets Weight
+const calculateWeight = (earthWeight, planet) => {
+	if (planet === "Mercury") {
+		return earthWeight * 0.378 + "kg";
+	} else if (planet === "Venus") {
+		return earthWeight * 0.907 + "kg";
+	} else if (planet === "Mars") {
+		return earthWeight * 0.377 + "kg";
+	} else if (planet === "Jupiter") {
+		return earthWeight * 2.36 + "kg";
+	} else if (planet === "Saturn") {
+		return earthWeight * 0.916 + "kg";
+	} else {
+		return "Invalid Planet Entry";
+	}
+};
+
+console.log(calculateWeight(75, "Mercury"));
+
+//8. Imaginary Friends, return 33% of total friends
+const numImaginaryFriends = (friends) => {
+	return (imagFriends = friends * 0.33);
+	numImaginaryFriends === imagFriends;
+};
+console.log(Math.round(numImaginaryFriends(10)));
+
+//8.1. Or simplified
+const nImaginaryFriends = (totalFriends) => Math.round(totalFriends * 0.33);
+
+console.log(nImaginaryFriends(10));
+
+//9. sillySentence
+const sillySentence = (adj, verb, noun) => {
+	return (
+		"I am so " +
+		adj +
+		" because I " +
+		verb +
+		" coding! Time to write some awesome " +
+		noun +
+		"!"
+	);
+};
+
+console.log(sillySentence("happy", "love", "shit"));
+
+//9.1. Simplified
+const sillSentence = (adj, verb, noun) =>
+	"I am so ${adj} because I ${verb} coding! Time to write some more awesome ${noun}!";
+
+console.log(sillSentence("happy", "love", "shit"));
